@@ -1,0 +1,16 @@
+:root {
+  --max-width: 500px;
+  --title-color: rgb(5, 43, 58);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(95, 174, 205);
+}

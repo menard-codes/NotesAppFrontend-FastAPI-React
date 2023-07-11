@@ -1,0 +1,80 @@
+#note-container {
+  background-color: rgb(30, 102, 130);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#note-container > input,
+#note-container > textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#note-title-edit-input {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+#note-body-edit-input {
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.note-buttons-container {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.note-buttons-container > button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.delete-btn {
+  background-color: rgb(214, 31, 31);
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: rgb(244, 37, 37);
+}
+
+.delete-btn:active {
+  background-color: rgb(168, 23, 23);
+}
+
+.save-btn {
+  background-color: rgb(25, 228, 25);
+}
+
+.save-btn:hover {
+  background-color: rgb(30, 254, 30);
+}
+
+.save-btn:active {
+  background-color: rgb(20, 187, 20);
+}
+
+.neutral-btn {
+  background-color: rgb(212, 212, 212);
+}
+
+.neutral-btn:hover {
+  background-color: white;
+}
+
+.neutral-btn:active {
+  background-color: grey;
+}

@@ -1,0 +1,20 @@
+#notes-list-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-bottom: 24px;
+  padding: 0 24px;
+}
+
+#notes-list-header {
+  text-align: center;
+  margin: 10px;
+  color: var(--title-color);
+}
+
+#notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  list-style: none;
+}

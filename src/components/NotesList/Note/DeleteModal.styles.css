@@ -1,0 +1,70 @@
+#delete-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(150, 150, 150, 0.8);
+
+  display: grid;
+  place-items: center;
+}
+
+#delete-modal-container > #delete-modal {
+  background-color: rgb(25, 120, 158);
+  color: black;
+  height: 100px;
+  width: 90%;
+  max-width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  user-select: none;
+
+  display: grid;
+  place-items: center;
+}
+
+#delete-modal > #prompt-msg {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+#btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+#btn-container > button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+#btn-container > #yes-btn {
+  background-color: red;
+  color: white;
+}
+
+#btn-container > #yes-btn:hover {
+  background-color: rgb(255, 55, 55);
+}
+
+#btn-container > #yes-btn:active {
+  background-color: rgb(177, 0, 0);
+}
+
+#btn-container > #no-btn {
+  background-color: rgb(189, 189, 189);
+}
+
+#btn-container > #no-btn:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+#btn-container > #no-btn:active {
+  background-color: rgb(89, 89, 89);
+}

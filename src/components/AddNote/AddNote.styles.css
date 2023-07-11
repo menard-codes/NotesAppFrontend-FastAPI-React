@@ -1,0 +1,55 @@
+#add-note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  max-width: var(--max-width);
+  margin: 24px auto;
+  padding: 0 24px;
+}
+
+#add-note-form > input,
+#add-note-form > textarea {
+  padding: 10px;
+  background-color: rgb(223, 223, 223);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#title-input {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+#note-body-textarea {
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#add-note-btn {
+  padding: 10px;
+  width: fit-content;
+  min-width: 80px;
+  border: 2px solid skyblue;
+  background-color: rgb(30, 143, 188);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition: all 0.1s ease-in;
+}
+
+#add-note-btn:hover {
+  background-color: rgb(33, 162, 213);
+}
+
+#add-note-btn:active {
+  background-color: rgb(24, 103, 135);
+}
+
+#add-note-btn:disabled {
+  background-color: rgb(24, 103, 135);
+  color: rgb(195, 195, 195);
+}

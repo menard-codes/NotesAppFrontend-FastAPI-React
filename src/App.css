@@ -1,0 +1,23 @@
+hr {
+  width: calc(100% - 48px);
+  max-width: calc(var(--max-width) - 48px);
+  margin: 0 auto;
+  border: 1.5px dashed rgb(25, 120, 158);
+}
+
+#app-title {
+  text-align: center;
+  margin: 10px;
+  color: var(--title-color);
+}
+
+#made-with-txt,
+#made-with-txt > a {
+  color: rgb(79, 79, 79);
+}
+
+#made-with-txt {
+  display: block;
+  text-align: center;
+  font-size: 0.7rem;
+}

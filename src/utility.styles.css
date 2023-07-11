@@ -1,0 +1,10 @@
+.input-error {
+  outline: 2px solid red !important;
+  outline-offset: 2px;
+  color: red;
+}
+
+.input-error::placeholder {
+  color: red;
+  opacity: 0.5;
+}
